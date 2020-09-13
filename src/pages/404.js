@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 const IndexPage = () => (
   <Layout fullMenu>
     <section id="wrapper">
-      <header>
+      <header className="notFound">
         <div className="inner">
           <h2>Page not found</h2>
           <p>Not a valid URL</p>
