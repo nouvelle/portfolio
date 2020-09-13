@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 
@@ -28,25 +29,25 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <a href="/#" className="image">
+          <Link to="/about" className="image">
             <img src={pic1} alt="about me" />
-          </a>
+          </Link>
           <div className="content">
             <h2 className="major">About</h2>
             <p>
               Hello! I'm Eriko.<br />
               Thank you for visiting my homepage.
             </p>
-            <a href="/#" className="special">
+            <Link to="/about" className="special">
               More
-            </a>
+            </Link>
           </div>
         </div>
       </section>
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="/#" className="image">
+          <a href="#four" className="image">
             <img src={pic2} alt="skills" />
           </a>
           <div className="content">
@@ -54,8 +55,8 @@ const IndexPage = () => (
             <p>
               I’m a software engineer with passion for the front-end.
             </p>
-            <a href="/#" className="special">
-              More
+            <a href="#four" className="special">
+              My portfolio
             </a>
           </div>
         </div>
