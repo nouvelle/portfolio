@@ -5,5 +5,3 @@ order: 4
 ---
 
 This is MONEY-TRACKER
-
-![image](./disp.png)

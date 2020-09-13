@@ -5,5 +5,3 @@ order: 3
 ---
 
 This is MY-STARBUCKS-JOURNEY
-
-![image](./disp.png)

@@ -5,5 +5,3 @@ order: 1
 ---
 
 This is 100DAYS-OF-STARBUCKS
-
-![image](./disp.png)

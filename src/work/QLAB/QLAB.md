@@ -5,5 +5,3 @@ order: 2
 ---
 
 This is QLAB
-
-![image](./disp.png)

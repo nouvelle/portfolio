@@ -5,5 +5,3 @@ order: 6
 ---
 
 This is DAILY-STARBUCKS
-
-![image](./disp.png)

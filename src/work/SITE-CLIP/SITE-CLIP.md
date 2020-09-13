@@ -5,5 +5,3 @@ order: 5
 ---
 
 This is SITE-CLIP
-
-![image](./disp.png)

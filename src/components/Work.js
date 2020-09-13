@@ -42,7 +42,7 @@ const Work = () => {
                 <h3 className="major">{work.node.frontmatter.title}</h3>
                 <p>{work.node.frontmatter.memo}</p>
                 <Link to={`/work/${work.node.fields.slug}`} className="special">
-                  Learn more
+                  More
                 </Link>
               </article>              
             );
