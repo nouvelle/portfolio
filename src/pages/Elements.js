@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import port2 from '../assets/images/port02.png';
-import port3 from '../assets/images/port03.gif';
+import port3 from '../assets/images/port03.png';
 import port4 from '../assets/images/port04.gif';
 import pic8 from '../assets/images/pic08.jpg';
 const IndexPage = () => <Layout fullMenu>

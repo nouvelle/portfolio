@@ -7,7 +7,7 @@ import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import port1 from '../assets/images/port01.png';
 import port2 from '../assets/images/port02.png';
-import port3 from '../assets/images/port03.gif';
+import port3 from '../assets/images/port03.png';
 import port4 from '../assets/images/port04.gif';
 import port5 from '../assets/images/port05.png';
 import port6 from '../assets/images/port06.png';
