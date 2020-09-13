@@ -34,6 +34,11 @@
 				margin-top: 0;
 			}
 		}
+		li.qiita {
+			&:before {
+				border: none;
+			}
+		}
 
 		@include breakpoint('<=small') {
 			li {

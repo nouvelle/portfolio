@@ -5,7 +5,16 @@
 ///
 
 /* Icon */
-
+	.qiita:before{
+		content: '';
+		display: inline-block;
+		background-image: url('../img/qiita.png');
+		width: 3px;
+		height: 3px;
+		background-size: contain;
+		vertical-align: middle;
+	}
+	
 	.icon {
 		@include icon;
 		border-bottom: none;
@@ -19,6 +28,13 @@
 			&:before {
 				background-color: _palette(fg-bold);
 				color: _palette(bg);
+			}
+		}
+	}
+	.icon.qiita {
+		&.alt {
+			&:before {
+				background-color: _palette(bg);
 			}
 		}
 	}
@@ -39,6 +55,13 @@ li.icon {
 			&:before {
 				background-color: desaturate(darken(_palette(accent1), 15), 5);
 			}
+		}
+	}
+}
+li.icon.qiita {
+	&:hover {
+		&:before {
+			background-color: _palette(fg);
 		}
 	}
 }

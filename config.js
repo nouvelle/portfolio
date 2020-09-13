@@ -32,6 +32,11 @@ module.exports = {
       name: 'Instagram',
       url: 'https://www.instagram.com/koeri_/',
     },
+    {
+      icon: 'icon alt qiita',
+      name: 'Qiita',
+      url: 'https://qiita.com/koeri3',
+    },
   ],
   address: 'Tokyo, Japan',
 };
