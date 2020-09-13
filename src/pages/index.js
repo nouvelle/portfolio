@@ -2,16 +2,11 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
+import Work from '../components/Work';
 
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
-import port1 from '../assets/images/port01.png';
-import port2 from '../assets/images/port02.png';
-import port3 from '../assets/images/port03.png';
-import port4 from '../assets/images/port04.gif';
-import port5 from '../assets/images/port05.png';
-import port6 from '../assets/images/port06.png';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -81,80 +76,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="four" className="wrapper alt style1">
-        <div className="inner">
-          <h2 className="major">Work</h2>
-          <section className="features">
-            <article>
-              <a href="/#" className="image">
-                <img src={port1} alt="100 days of starbucks" />
-              </a>
-              <h3 className="major">100days-Of-Starbucks</h3>
-              <p>This is a collection of tweets about Starbucks from Twitter.</p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={port2} alt="QLAB" />
-              </a>
-              <h3 className="major">QLAB</h3>
-              <p>QLAB is a learning envioronment where you can learn any topic to earn points.</p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={port3} alt="starbucks journey" />
-              </a>
-              <h3 className="major">My Starbucks journey</h3>
-              <p>This is my Starbucks journey in Seattle using Deck.gl made by UBER.</p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={port4} alt="Money Tracker " />
-              </a>
-              <h3 className="major">Money Tracker</h3>
-              <p>You can keep track of your daily spending.</p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={port5} alt="Coffee Time" />
-              </a>
-              <h3 className="major">Site clip</h3>
-              <p>It is an application to clip the URL for your Coffee Time.</p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={port6} alt="Daily Starbucks" />
-              </a>
-              <h3 className="major">Daily Starbucks</h3>
-              <p>It' a my daily Starbucks life.</p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-          </section>
-          <ul className="actions">
-            <li>
-              <a href="/#" className="button">
-                Browse All
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <Work />
     </section>
   </Layout>
 );
