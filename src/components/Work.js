@@ -17,7 +17,6 @@ const Work = () => {
             frontmatter {
               title
               memo
-              order
             }
             fields {
               slug
@@ -34,11 +33,11 @@ const Work = () => {
         <h2 className="major">Work</h2>
         <section className="features">
           {data.allMarkdownRemark.edges.map((work, i) => {
-            console.log(work.node.frontmatter.order)
+            const imgArr = [port1, port2, port3, port4, port5, port6];
             return (
               <article key={i}>
                 <Link to={`/work/${work.node.fields.slug}`} className="image">
-                  <img src={port1} alt={work.node.frontmatter.title} />
+                  <img src={imgArr[i]} alt={work.node.frontmatter.title} />
                 </Link>
                 <h3 className="major">{work.node.frontmatter.title}</h3>
                 <p>{work.node.frontmatter.memo}</p>
