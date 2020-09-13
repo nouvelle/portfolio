@@ -33,9 +33,12 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">About</h2>
-            <p>explain.....</p>
+            <p>
+              Hello! I'm Eriko.<br />
+              Thank you for visiting my homepage.
+            </p>
             <a href="/#" className="special">
-              Learn more
+              More
             </a>
           </div>
         </div>
@@ -48,9 +51,11 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">Skills</h2>
-            <p>explain.....</p>
+            <p>
+              I’m a software engineer with passion for the front-end.
+            </p>
             <a href="/#" className="special">
-              Learn more
+              More
             </a>
           </div>
         </div>
@@ -63,9 +68,13 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">Interests</h2>
-            <p>explain.....</p>
+            <p>
+              I'm a big fan of STARBUCKS!!<br />
+              I travel around the world to visit Starbucks.<br />
+              Here's a post about my daily Starbucks life. Have fun!
+            </p>
             <a href="/#" className="special">
-              Learn more
+              Check my blog
             </a>
           </div>
         </div>
@@ -74,14 +83,13 @@ const IndexPage = () => (
       <section id="four" className="wrapper alt style1">
         <div className="inner">
           <h2 className="major">Work</h2>
-          <p>xxxxxxxxxx</p>
           <section className="features">
             <article>
               <a href="/#" className="image">
                 <img src={port1} alt="100 days of starbucks" />
               </a>
-              <h3 className="major">No.1 - xxxx</h3>
-              <p>explain.....</p>
+              <h3 className="major">100days-Of-Starbucks</h3>
+              <p>This is a collection of tweets about Starbucks from Twitter.</p>
               <a href="/#" className="special">
                 Learn more
               </a>
@@ -90,8 +98,8 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={port2} alt="QLAB" />
               </a>
-              <h3 className="major">No.2 - xxxx</h3>
-              <p>explain.....</p>
+              <h3 className="major">QLAB</h3>
+              <p>QLAB is a learning envioronment where you can learn any topic to earn points.</p>
               <a href="/#" className="special">
                 Learn more
               </a>
@@ -100,8 +108,8 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={port3} alt="starbucks journey" />
               </a>
-              <h3 className="major">No.3 - xxxx</h3>
-              <p>explain.....</p>
+              <h3 className="major">My Starbucks journey</h3>
+              <p>This is my Starbucks journey in Seattle using Deck.gl made by UBER.</p>
               <a href="/#" className="special">
                 Learn more
               </a>
@@ -110,8 +118,8 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={port4} alt="Money Tracker " />
               </a>
-              <h3 className="major">No.4 - xxxx</h3>
-              <p>explain.....</p>
+              <h3 className="major">Money Tracker</h3>
+              <p>You can keep track of your daily spending.</p>
               <a href="/#" className="special">
                 Learn more
               </a>
@@ -120,8 +128,8 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={port5} alt="Coffee Time" />
               </a>
-              <h3 className="major">No.5 - xxxx</h3>
-              <p>explain.....</p>
+              <h3 className="major">Site clip</h3>
+              <p>It is an application to clip the URL for your Coffee Time.</p>
               <a href="/#" className="special">
                 Learn more
               </a>
@@ -130,8 +138,8 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={port6} alt="Daily Starbucks" />
               </a>
-              <h3 className="major">No.6 - xxxx</h3>
-              <p>explain.....</p>
+              <h3 className="major">Daily Starbucks</h3>
+              <p>It' a my daily Starbucks life.</p>
               <a href="/#" className="special">
                 Learn more
               </a>
