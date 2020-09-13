@@ -7,7 +7,7 @@ import pic2 from '../assets/images/pic02.jpg';
 import port2 from '../assets/images/port02.png';
 import port3 from '../assets/images/port03.png';
 import port4 from '../assets/images/port04.gif';
-import pic8 from '../assets/images/pic08.jpg';
+import pic4 from '../assets/images/pic04.jpg';
 const IndexPage = () => <Layout fullMenu>
 <section id="wrapper">
 		<header>
@@ -309,7 +309,7 @@ const IndexPage = () => <Layout fullMenu>
 						<h4>Fit</h4>
 						<div className="box alt">
 							<div className="row gtr-uniform">
-								<div className="col-12"><span className="image fit"><img src={pic8} alt="sample" /></span></div>
+								<div className="col-12"><span className="image fit"><img src={pic4} alt="sample" /></span></div>
 								<div className="col-4"><span className="image fit"><img src={port2} alt="sample" /></span></div>
 								<div className="col-4"><span className="image fit"><img src={port3} alt="sample" /></span></div>
 								<div className="col-4"><span className="image fit"><img src={port4} alt="sample" /></span></div>
