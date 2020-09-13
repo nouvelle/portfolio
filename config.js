@@ -1,13 +1,13 @@
 module.exports = {
   siteTitle: 'Eriko',
-  manifestName: 'SolidState',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestName: "Eriko's Portfolio Site",
+  manifestShortName: 'Portfolio', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/favicon.png',
-  pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
+  // pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
   heading: "Hello! I'm Eriko :)",
   subHeading: 'Software Engineer, Educator and STARBUCKS LOVER <3',
   // social

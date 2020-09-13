@@ -52,7 +52,7 @@ const IndexPage = () => (
           <section className="features">
             <article>
               <a href="/#" className="image">
-                <img src={port1} alt="" />
+                <img src={port1} alt="about me" />
               </a>
               <h3 className="major">Sed feugiat lorem</h3>
               <p>
@@ -65,7 +65,7 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={port2} alt="" />
+                <img src={port2} alt="skills" />
               </a>
               <h3 className="major">Nisl placerat</h3>
               <p>

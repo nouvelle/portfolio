@@ -29,7 +29,7 @@ const IndexPage = () => (
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic1} alt="" />
+            <img src={pic1} alt="about me" />
           </a>
           <div className="content">
             <h2 className="major">About</h2>
@@ -44,7 +44,7 @@ const IndexPage = () => (
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic2} alt="" />
+            <img src={pic2} alt="skills" />
           </a>
           <div className="content">
             <h2 className="major">Skills</h2>
@@ -59,7 +59,7 @@ const IndexPage = () => (
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic3} alt="" />
+            <img src={pic3} alt="interests" />
           </a>
           <div className="content">
             <h2 className="major">Interests</h2>
@@ -78,7 +78,7 @@ const IndexPage = () => (
           <section className="features">
             <article>
               <a href="/#" className="image">
-                <img src={port1} alt="" />
+                <img src={port1} alt="100 days of starbucks" />
               </a>
               <h3 className="major">No.1 - xxxx</h3>
               <p>explain.....</p>
@@ -88,7 +88,7 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={port2} alt="" />
+                <img src={port2} alt="QLAB" />
               </a>
               <h3 className="major">No.2 - xxxx</h3>
               <p>explain.....</p>
@@ -98,7 +98,7 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={port3} alt="" />
+                <img src={port3} alt="starbucks journey" />
               </a>
               <h3 className="major">No.3 - xxxx</h3>
               <p>explain.....</p>
@@ -108,7 +108,7 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={port4} alt="" />
+                <img src={port4} alt="Money Tracker " />
               </a>
               <h3 className="major">No.4 - xxxx</h3>
               <p>explain.....</p>
@@ -118,7 +118,7 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={port5} alt="" />
+                <img src={port5} alt="Coffee Time" />
               </a>
               <h3 className="major">No.5 - xxxx</h3>
               <p>explain.....</p>
@@ -128,7 +128,7 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={port6} alt="" />
+                <img src={port6} alt="Daily Starbucks" />
               </a>
               <h3 className="major">No.6 - xxxx</h3>
               <p>explain.....</p>

@@ -12,7 +12,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "yarn run clean && gatsby build",
-    "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "yarn run clean && gatsby build --prefix-paths && surge public hello-eriko.surge.sh",
     "serve": "gatsby serve",
     "clean": "rimraf .cache public",
     "format": "prettier --write '**/*.js'",
