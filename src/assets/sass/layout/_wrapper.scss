@@ -81,7 +81,7 @@
           transparentize(_palette(bg), 0.2)
         ),
         url('../images/bg2.jpg');
-      padding-bottom: 150px;
+      padding-bottom: 250px;
     }
   }
 
@@ -102,6 +102,15 @@
       .inner {
         width: 100%;
       }
+    }
+    .notFound {
+      background-image: linear-gradient(
+          to top,
+          transparentize(_palette(bg), 0.2),
+          transparentize(_palette(bg), 0.2)
+        ),
+        url('../images/bg2.jpg');
+      padding-bottom: 200px;
     }
   }
 
@@ -124,6 +133,15 @@
       p {
         font-size: 0.8em;
       }
+    }
+    .notFound {
+      background-image: linear-gradient(
+          to top,
+          transparentize(_palette(bg), 0.2),
+          transparentize(_palette(bg), 0.2)
+        ),
+        url('../images/bg2.jpg');
+      padding-bottom: 120px;
     }
   }
 }

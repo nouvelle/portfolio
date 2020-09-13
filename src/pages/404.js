@@ -11,6 +11,9 @@ const IndexPage = () => (
           <p>Not a valid URL</p>
         </div>
       </header>
+      <div className="wrapper">
+          <div className="inner"></div>
+      </div>
     </section>
   </Layout>
 );
