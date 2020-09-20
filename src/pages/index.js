@@ -69,7 +69,7 @@ const IndexPage = () => (
               I travel around the world to visit Starbucks.<br />
               Here's a post about my daily Starbucks life. Have fun!
             </p>
-            <a href="/#" className="special">
+            <a href="https://wonderful-dubinsky-d7fc26.netlify.app/" className="special">
               Check my blog
             </a>
           </div>
