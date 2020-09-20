@@ -16,7 +16,7 @@ UBERが作成した [Deck.gl](https://github.com/uber/deck.gl) という地理�
 
 - React
 - Node.js
-- express
+- Express
 - Deck.gl
 - Mapbox
 - Heroku
