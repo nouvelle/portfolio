@@ -250,6 +250,11 @@
     }
   }
 
+  // TopPage - Work
+  a.special.right {
+    text-align: right;
+  }
+
   @include breakpoint('<=medium') {
     margin: _size(wrapper-edges, medium) 0;
 
