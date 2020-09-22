@@ -7,6 +7,7 @@ import port3 from '../assets/images/port03.png';
 import port4 from '../assets/images/port04.png';
 import port5 from '../assets/images/port05.png';
 import port6 from '../assets/images/port06.png';
+import port7 from '../assets/images/port07.png';
 
 const Work = () => {
   const data = useStaticQuery(graphql`
@@ -33,7 +34,7 @@ const Work = () => {
         <h2 className="major">Work</h2>
         <section className="features">
           {data.allMarkdownRemark.edges.map((work, i) => {
-            const imgArr = [port1, port2, port3, port4, port5, port6];
+            const imgArr = [port1, port2, port3, port4, port5, port6, port7];
             return (
               <article key={i}>
                 <Link to={`/work/${work.node.fields.slug}`} className="image">
