@@ -32,20 +32,18 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/#work"
+              to="/work"
             >
               Work
             </Link>
           </li>
           <li>
-            <Link
+            <a
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Blog"
-            >
-              Blog
-            </Link>
+              href="https://wonderful-dubinsky-d7fc26.netlify.app/"
+            >Blog</a>
           </li>
         </ul>
         <a
