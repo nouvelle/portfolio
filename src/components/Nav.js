@@ -32,7 +32,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/#four"
+              to="/#work"
             >
               Work
             </Link>

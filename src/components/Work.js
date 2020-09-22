@@ -29,7 +29,7 @@ const Work = () => {
   `);
 
   return (
-    <section id="four" className="wrapper alt style1">
+    <section id="work" className="wrapper alt style1">
       <div className="inner">
         <h2 className="major">Work</h2>
         <section className="features">

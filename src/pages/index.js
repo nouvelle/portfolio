@@ -42,7 +42,7 @@ const IndexPage = () => (
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="#four" className="image">
+          <a href="#work" className="image">
             <img src={pic2} alt="skills" />
           </a>
           <div className="content">
@@ -50,7 +50,7 @@ const IndexPage = () => (
             <p>
               I’m a software engineer with passion for the front-end.
             </p>
-            <a href="#four" className="special">
+            <a href="#work" className="special">
               My portfolio
             </a>
           </div>
