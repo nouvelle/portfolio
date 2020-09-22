@@ -4,7 +4,7 @@ memo: "It' a my daily Starbucks life."
 order: 6
 ---
 
-# About / これについて
+# About
 
 私のスターバックスライフを綴ったブログです。
 

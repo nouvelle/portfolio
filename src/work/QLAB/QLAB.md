@@ -4,7 +4,7 @@ memo: "QLAB is a learning envioronment where you can learn any topic to earn poi
 order: 2
 ---
 
-# About / これについて
+# About
 QLAB is an application for learning and investing in friends, and where your effort is the currency. The more effort you put in, the more QPoints you get! You can then invest your points in your friends to benefit from their effort and create a collaborative growth environment.
 
 QLABは、努力が通貨となる学習アプリです。努力すればするほどより多くのQPointを得ることができます。自分のポイントを友人に投資することもでき、投資した友人が努力するとあなたも利益を得ることができます。仲間と一緒に学ぶ環境を作り出すことができます。

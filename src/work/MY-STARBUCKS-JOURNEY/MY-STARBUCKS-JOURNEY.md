@@ -4,7 +4,7 @@ memo: "This is my Starbucks journey in Seattle using Deck.gl made by UBER."
 order: 3
 ---
 
-# About / これについて
+# About
 This is my Starbucks journey in Seattle using [Deck.gl](https://github.com/uber/deck.gl) made by UBER.  
 これは、シアトル旅行のタイムラインデータを[Deck.gl](https://github.com/uber/deck.gl) を使用してビジュアル化したものです。
 

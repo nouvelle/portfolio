@@ -4,7 +4,7 @@ memo: "This is a collection of tweets about Starbucks from Twitter."
 order: 1
 ---
 
-# About / これについて
+# About
 Twitter でハッシュタグ「#100DaysOfStarbucks」をつけて Starbucks についてつぶやいたものをまとめて表示しているWebサイトです。
 
 ***

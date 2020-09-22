@@ -4,7 +4,7 @@ memo: "It is an application to clip the URL for your Coffee Time."
 order: 5
 ---
 
-# About / これについて
+# About
 If you use this app, you can save the URLs you want to read later and read them together later.
 You can save what you have read, so you can read it immediately if you want to read it again.  
 このアプリを使えば、後で読みたいURLを保存し、後でまとめて読むことができます。
