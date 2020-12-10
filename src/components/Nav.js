@@ -42,8 +42,8 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              href="https://wonderful-dubinsky-d7fc26.netlify.app/"
-            >Blog</a>
+              href="https://koeri.surge.sh/"
+            >My daily Starbucks life</a>
           </li>
         </ul>
         <a

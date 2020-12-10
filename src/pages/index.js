@@ -60,7 +60,7 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <a href="https://wonderful-dubinsky-d7fc26.netlify.app/" className="image">
+          <a href="https://koeri.surge.sh/" className="image">
             <img src={pic3} alt="interests" />
           </a>
           <div className="content">
@@ -70,8 +70,8 @@ const IndexPage = () => (
               I travel around the world to visit Starbucks.<br />
               Here's a post about my daily Starbucks life. Have fun!
             </p>
-            <a href="https://wonderful-dubinsky-d7fc26.netlify.app/" className="special">
-              Check my blog
+            <a href="https://koeri.surge.sh/" className="special">
+              Check my Starbucks Journey
             </a>
           </div>
         </div>
