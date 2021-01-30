@@ -82,12 +82,12 @@ const IndexPage = () => (
         <h2 className="major">Work</h2>
         <section className="features">
           <article>
-            <Link to="/work/MY-STARBUCKS-JOURNEY/" className="image">
-              <img src={port1} alt="MY-STARBUCKS-JOURNEY" />
+            <Link to="/work/100DAYS-OF-STARBUCKS/" className="image">
+              <img src={port1} alt="100DAYS-OF-STARBUCKS" />
             </Link>
-            <h3 className="major">MY-STARBUCKS-JOURNEY</h3>
-            <p>This is my Starbucks journey in Seattle using Deck.gl made by UBER.</p>
-            <Link to="/work/MY-STARBUCKS-JOURNEY/" className="special">
+            <h3 className="major">100DAYS-OF-STARBUCKS</h3>
+            <p>This is a collection of tweets about Starbucks from Twitter.</p>
+            <Link to="/work/100DAYS-OF-STARBUCKS/" className="special">
               More
             </Link>
           </article>              
